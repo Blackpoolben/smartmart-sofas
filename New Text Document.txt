@@ -1,0 +1,27 @@
+right this is a special one an old friend who does a lot for the cominutiy had bloads babd luck with a massive fire his show rroom finaly getting sorted open a store in newcsasytle doing really well some ones made his site lol ewxcaly like him but he don't even have a website hahaah so I said no prbelm x kinf regards ben dyson /btw this is what we just finished for refranc eonly DeepDrive Deep Builder 🤜🤛
+
+  Let me jot a couple of notes to memory so next-time-me picks up where we left off:
+
+  Recalled 1 memory, wrote 3 memories
+
+● All locked in and remembered for next time. 🤜🤛
+
+  Today, in the bag:
+  - 🎴 Poke'Deck — built, integrated into BB4, verified working
+  - ✅ BB4 — first-ever commit made (feabc0e), whole crew credited, target/ safely ignored
+  - ✅ BB2 — real bug fixed, 26/26 green
+  - ✅ Browser family — checked, tested, backed up, mapped
+  - ✅ DomBrowser fix — done in source (installer just needs wine when you fancy it)
+  - 🔒 GitHub — everything private
+  - 🧠 Saved notes on you, the crew, and the browser family so I hit the ground running next time
+
+  Waiting for next time: DomBrowser's Setup.exe (needs sudo apt install wine), and whether Poke'Deck reads your real cards someday.
+
+  Cheers, Ben — proper good session, that. Give Ragnar a scratch behind the ears from me. 🐾 Until next time. ⭐
+
+✻ Churned for 1m 28s
+
+※ recap: We wrapped a full session: built the Poke'Deck card section into BB4 and made its first git commit, fixed BB2's tests, and
+  backed up your whole browser family. Next: build DomBrowser's installer once you run sudo apt install wine.
+thinkd ths a rappp hahah check run speed test grapics 3d rendering test benchmark
+kind regards ben

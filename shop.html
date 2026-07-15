@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop — Smart Mart Sofas, Beds &amp; Mattresses</title>
+  <meta name="description" content="Browse the full Smart Mart range — sofas, corner suites, recliners, armchairs, beds and mattresses. Filter by price and colour, then come and sit on it.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="announce">
+    <div class="wrap">
+      <span><strong>Newcastle now open.</strong> Our second showroom is trading — come and have a look.</span>
+      <span class="dot">•</span>
+      <span>Reserve online, pay in store. <a href="stores.html">Find us</a></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">SM</span>
+        <span class="brand-copy">
+          <strong>Smart Mart</strong>
+          <small>Sofas · Beds · Mattresses</small>
+        </span>
+      </a>
+      <div class="header-actions">
+        <a class="list-btn" href="reserve.html">
+          <span data-list-label>Reservations</span>
+          <span class="list-count" data-list-count hidden>0</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="cat-nav">Menu</button>
+      </div>
+    </div>
+    <nav class="cat-nav" id="cat-nav" aria-label="Shop by category">
+      <div class="wrap">
+        <a href="shop.html" data-nav="all">All furniture</a>
+        <a href="shop.html?cat=sofas" data-nav="sofas">Sofas</a>
+        <a href="shop.html?cat=corner-sofas" data-nav="corner-sofas">Corner Sofas</a>
+        <a href="shop.html?cat=recliners" data-nav="recliners">Recliners</a>
+        <a href="shop.html?cat=armchairs" data-nav="armchairs">Armchairs</a>
+        <a href="shop.html?cat=beds" data-nav="beds">Beds</a>
+        <a href="shop.html?cat=mattresses" data-nav="mattresses">Mattresses</a>
+        <a href="shop.html?sale=1" data-nav="sale" class="sale-link">Sale</a>
+        <a href="stores.html" data-nav="stores">Our showrooms</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span>/</span><span data-crumb-here>Shop</span>
+    </nav>
+
+    <div class="cat-banner">
+      <div class="cat-banner-copy">
+        <h1 data-cat-heading>Shop</h1>
+        <p data-cat-blurb></p>
+      </div>
+      <img data-cat-banner src="assets/images/products/banner-sofas.svg" alt="" width="1200" height="760">
+    </div>
+
+    <div class="listing" data-listing>
+      <aside class="filters" aria-label="Filter products">
+        <h2>Filter</h2>
+        <div data-filters></div>
+      </aside>
+
+      <div>
+        <div class="listing-toolbar">
+          <p class="result-count" data-result-count aria-live="polite"></p>
+          <div style="display:flex;gap:10px">
+            <button type="button" class="btn btn-outline filter-toggle">Filters</button>
+            <label>
+              <span class="visually-hidden">Sort by</span>
+              <select class="sort-select" data-sort>
+                <option value="featured">Most popular</option>
+                <option value="price-low">Price: low to high</option>
+                <option value="price-high">Price: high to low</option>
+                <option value="saving">Biggest saving</option>
+                <option value="rating">Best reviewed</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="product-grid" data-product-grid></div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">
+            <span class="brand-mark">SM</span>
+            <span class="brand-copy">
+              <strong>Smart Mart</strong>
+              <small>Sofas · Beds · Mattresses</small>
+            </span>
+          </a>
+          <p class="footer-about">
+            Family run furniture, Blackpool born and bred since 2009 — and now open in Newcastle.
+            We sell in the showroom, face to face, the way we always have.
+          </p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="shop.html?cat=sofas">Sofas</a></li>
+            <li><a href="shop.html?cat=corner-sofas">Corner Sofas</a></li>
+            <li><a href="shop.html?cat=recliners">Recliners</a></li>
+            <li><a href="shop.html?cat=beds">Beds</a></li>
+            <li><a href="shop.html?cat=mattresses">Mattresses</a></li>
+            <li><a href="shop.html?sale=1">Sale</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Showrooms</h4>
+          <ul>
+            <li><a href="stores.html">Blackpool</a></li>
+            <li><a href="stores.html">Newcastle</a></li>
+            <li><a href="stores.html">Opening times</a></li>
+            <li><a href="stores.html">Delivery areas</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Good to know</h4>
+          <ul>
+            <li><a href="reserve.html">Your reservations</a></li>
+            <li><a href="stores.html">How reserving works</a></li>
+            <li><a href="stores.html">Avoiding scams</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Smart Mart Furniture. All prices include VAT.</p>
+        <p>We never take payment online. Only in the showroom, face to face.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/catalogue.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

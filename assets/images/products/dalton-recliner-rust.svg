@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf6f0"/><stop offset="1" stop-color="#ece2d5"/>
+    </linearGradient>
+    <linearGradient id="f7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c07a5b"/><stop offset="0.55" stop-color="#a55f42"/><stop offset="1" stop-color="#844a33"/>
+    </linearGradient>
+    <linearGradient id="c7" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c07a5b"/><stop offset="1" stop-color="#a55f42"/>
+    </linearGradient>
+    <radialGradient id="sh7" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3a2a1c" stop-opacity="0.28"/><stop offset="1" stop-color="#3a2a1c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg7)"/>
+  <circle cx="400" cy="276" r="264" fill="#fff" opacity="0.5"/><ellipse cx="400" cy="470" rx="220" ry="42" fill="url(#sh7)"/><path d="M300 320 L280 170 q2 -26 28 -26 l150 0 q26 0 27 26 L470 320 z" fill="url(#f7)"/><path d="M312 300 L296 188 q1 -16 17 -16 l140 0 q16 0 17 16 L456 300 z" fill="url(#c7)" stroke="#844a33" stroke-width="2"/><rect x="308" y="176" width="152" height="44" rx="16" fill="#c07a5b" opacity="0.75"/><rect x="272" y="316" width="228" height="70" rx="18" fill="#844a33"/><rect x="286" y="300" width="200" height="42" rx="14" fill="url(#c7)" stroke="#844a33" stroke-width="2"/><rect x="252" y="256" width="58" height="132" rx="24" fill="url(#f7)"/><rect x="462" y="256" width="58" height="132" rx="24" fill="url(#f7)"/><ellipse cx="281" cy="268" rx="26" ry="12" fill="#c07a5b" opacity="0.7"/><ellipse cx="491" cy="268" rx="26" ry="12" fill="#c07a5b" opacity="0.7"/><rect x="500" y="330" width="130" height="56" rx="16" fill="url(#f7)"/><rect x="512" y="318" width="112" height="36" rx="12" fill="url(#c7)" stroke="#844a33" stroke-width="2"/><rect x="496" y="352" width="20" height="44" rx="6" fill="#844a33"/><path d="M268 384 l24 0 l-4.32 40 l-15.36 0 z" fill="#7a5c3e"/>
+   <path d="M280 384 l12 0 l-4.32 40 l-7.68 0 z" fill="#5e452d"/><path d="M476 384 l24 0 l-4.32 40 l-15.36 0 z" fill="#7a5c3e"/>
+   <path d="M488 384 l12 0 l-4.32 40 l-7.68 0 z" fill="#5e452d"/></svg>

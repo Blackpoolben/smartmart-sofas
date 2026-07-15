@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Mart — Sofas, Beds &amp; Mattresses | Blackpool &amp; Newcastle</title>
+  <meta name="description" content="Sofas, corner suites, recliners, beds and mattresses from Smart Mart. Family run in Blackpool since 2009, and now open in Newcastle. Reserve online, pay in the showroom.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="announce">
+    <div class="wrap">
+      <span><strong>Newcastle now open.</strong> Our second showroom is trading — come and have a look.</span>
+      <span class="dot">•</span>
+      <span>Reserve online, pay in store. <a href="stores.html">Find us</a></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">SM</span>
+        <span class="brand-copy">
+          <strong>Smart Mart</strong>
+          <small>Sofas · Beds · Mattresses</small>
+        </span>
+      </a>
+      <div class="header-actions">
+        <a class="list-btn" href="reserve.html">
+          <span data-list-label>Reservations</span>
+          <span class="list-count" data-list-count hidden>0</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="cat-nav">Menu</button>
+      </div>
+    </div>
+    <nav class="cat-nav" id="cat-nav" aria-label="Shop by category">
+      <div class="wrap">
+        <a href="shop.html" data-nav="all">All furniture</a>
+        <a href="shop.html?cat=sofas" data-nav="sofas">Sofas</a>
+        <a href="shop.html?cat=corner-sofas" data-nav="corner-sofas">Corner Sofas</a>
+        <a href="shop.html?cat=recliners" data-nav="recliners">Recliners</a>
+        <a href="shop.html?cat=armchairs" data-nav="armchairs">Armchairs</a>
+        <a href="shop.html?cat=beds" data-nav="beds">Beds</a>
+        <a href="shop.html?cat=mattresses" data-nav="mattresses">Mattresses</a>
+        <a href="shop.html?sale=1" data-nav="sale" class="sale-link">Sale</a>
+        <a href="stores.html" data-nav="stores">Our showrooms</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="flag">Summer sale — up to £500 off</span>
+          <h1>Furniture you can actually sit on before you buy it.</h1>
+          <p class="lede">
+            Sofas, corner suites, recliners, beds and mattresses — laid out across two showrooms
+            so you can try the lot in an afternoon. Reserve what you like on here, then come in,
+            sit on it, and pay when you are sure.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-lg" href="shop.html">Browse the range</a>
+            <a class="btn btn-outline btn-lg" href="stores.html">Find your showroom</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="assets/images/products/hero-showroom.svg" alt="The Smart Mart showroom floor" width="1200" height="760">
+        </div>
+      </div>
+    </section>
+
+    <div class="usp-bar">
+      <div><strong>Reserve free for 7 days</strong><span>No deposit, no card details</span></div>
+      <div><strong>Pay in the showroom</strong><span>Never online, never over the phone</span></div>
+      <div><strong>Free local delivery</strong><span>Fylde coast &amp; Tyneside</span></div>
+      <div><strong>Family run since 2009</strong><span>Blackpool born and bred</span></div>
+    </div>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Shop by room</p>
+          <h2>What are you after?</h2>
+          <p>Every piece below is on the floor in Blackpool, Newcastle, or both. If it is listed here, you can go and sit on it.</p>
+        </div>
+        <div class="cat-grid" data-cat-grid></div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--cream);border-block:1px solid var(--line)">
+      <div class="wrap">
+        <div class="section-head section-head-row">
+          <div>
+            <p class="eyebrow">Sale</p>
+            <h2>The biggest savings on the floor</h2>
+            <p>Marked down and staying down until the end of the month.</p>
+          </div>
+          <a class="btn btn-outline" href="shop.html?sale=1">See everything in the sale</a>
+        </div>
+        <div class="product-grid" data-deals></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head section-head-row">
+          <div>
+            <p class="eyebrow">New in</p>
+            <h2>Just landed on the floor</h2>
+            <p>Fresh stock, and the pieces people keep coming back for.</p>
+          </div>
+          <a class="btn btn-outline" href="shop.html">See the full range</a>
+        </div>
+        <div class="product-grid" data-new-in></div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="notice">
+          <span class="flag">Important — please read</span>
+          <h2>We will never ask you to send money online.</h2>
+          <p>
+            There are fake accounts using our name and our photos. They are not us. Smart Mart takes payment
+            <strong>in the showroom only</strong> — never by bank transfer, never by a link in a message, never
+            over the phone. If anyone claiming to be us asks you to send money, stop, and ring the store on the
+            number on our <a href="stores.html" style="text-decoration:underline">showrooms page</a> to check.
+            You will not offend us by checking. We would far rather you did.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Two showrooms</p>
+          <h2>Blackpool, and now Newcastle.</h2>
+          <p>Same stock, same prices, same promise. Newcastle is run day to day by a friend of the family, and it has been going well since the doors opened.</p>
+        </div>
+        <div class="store-grid">
+          <article class="store-card">
+            <img src="assets/images/products/store-blackpool.svg" alt="The Blackpool showroom" width="1200" height="760" loading="lazy">
+            <div class="store-body">
+              <h3>Blackpool <span class="muted" style="font-size:0.8rem;font-family:Manrope,sans-serif">The original</span></h3>
+              <div class="store-meta">
+                <div class="row"><span>Address</span><span>11–13 General Street, Blackpool</span></div>
+                <div class="row"><span>Open</span><span>Mon–Sat 9am–5.30pm, Sun 10am–4pm</span></div>
+              </div>
+              <a class="btn btn-outline" href="stores.html">Directions &amp; opening times</a>
+            </div>
+          </article>
+          <article class="store-card">
+            <img src="assets/images/products/store-newcastle.svg" alt="The Newcastle showroom" width="1200" height="760" loading="lazy">
+            <div class="store-body">
+              <h3>Newcastle <span class="flag" style="font-size:0.62rem;padding:4px 9px;vertical-align:middle">Now open</span></h3>
+              <div class="store-meta">
+                <div class="row"><span>Address</span><span>Add the Newcastle address here</span></div>
+                <div class="row"><span>Open</span><span>Mon–Sat 9am–5.30pm, Sun 10am–4pm</span></div>
+              </div>
+              <a class="btn btn-outline" href="stores.html">Directions &amp; opening times</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--cream);border-block:1px solid var(--line)">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">What people say</p>
+          <h2>Straight answers, no hard sell.</h2>
+        </div>
+        <div class="review-grid">
+          <article class="review-card">
+            <span class="stars"><span class="star-fill">★★★★★</span></span>
+            <blockquote>Went in to look at one sofa and got told honestly that a cheaper one suited what I needed better. Who does that? Ended up buying two things.</blockquote>
+            <cite>Marie H.<small>Blackpool showroom</small></cite>
+          </article>
+          <article class="review-card">
+            <span class="stars"><span class="star-fill">★★★★★</span></span>
+            <blockquote>They measured my front door with me over the phone before I bought the corner suite. It went in first time. Not a scratch.</blockquote>
+            <cite>Dean R.<small>Newcastle showroom</small></cite>
+          </article>
+          <article class="review-card">
+            <span class="stars"><span class="star-fill">★★★★★</span></span>
+            <blockquote>After what happened with the fire, seeing this place back up and busy is brilliant. Good people. Good prices too.</blockquote>
+            <cite>Sandra W.<small>Blackpool showroom</small></cite>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">
+            <span class="brand-mark">SM</span>
+            <span class="brand-copy">
+              <strong>Smart Mart</strong>
+              <small>Sofas · Beds · Mattresses</small>
+            </span>
+          </a>
+          <p class="footer-about">
+            Family run furniture, Blackpool born and bred since 2009 — and now open in Newcastle.
+            We sell in the showroom, face to face, the way we always have.
+          </p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="shop.html?cat=sofas">Sofas</a></li>
+            <li><a href="shop.html?cat=corner-sofas">Corner Sofas</a></li>
+            <li><a href="shop.html?cat=recliners">Recliners</a></li>
+            <li><a href="shop.html?cat=beds">Beds</a></li>
+            <li><a href="shop.html?cat=mattresses">Mattresses</a></li>
+            <li><a href="shop.html?sale=1">Sale</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Showrooms</h4>
+          <ul>
+            <li><a href="stores.html">Blackpool</a></li>
+            <li><a href="stores.html">Newcastle</a></li>
+            <li><a href="stores.html">Opening times</a></li>
+            <li><a href="stores.html">Delivery areas</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Good to know</h4>
+          <ul>
+            <li><a href="reserve.html">Your reservations</a></li>
+            <li><a href="stores.html">How reserving works</a></li>
+            <li><a href="stores.html">Avoiding scams</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Smart Mart Furniture. All prices include VAT.</p>
+        <p>We never take payment online. Only in the showroom, face to face.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/catalogue.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

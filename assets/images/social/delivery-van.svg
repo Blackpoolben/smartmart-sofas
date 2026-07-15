@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f1e8"/><stop offset="1" stop-color="#e6dbcb"/></linearGradient>
+    <radialGradient id="sh" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3a2a1c" stop-opacity="0.24"/><stop offset="1" stop-color="#3a2a1c" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+<rect x="0" y="660" width="1200" height="240" fill="#c9c4bc"/><ellipse cx="600" cy="690" rx="420" ry="30" fill="url(#sh)"/><rect x="240" y="300" width="620" height="330" rx="24" fill="#ffffff"/><path d="M860 380 L1010 440 L1010 630 L860 630 Z" fill="#f0eae0"/><rect x="300" y="420" width="380" height="120" rx="8" fill="#1e2229"/><text x="490" y="500" font-family="Georgia,serif" font-size="52" fill="#faf7f2" text-anchor="middle">SMART MART</text><circle cx="380" cy="640" r="58" fill="#2b2f36"/><circle cx="380" cy="640" r="26" fill="#9aa0a8"/><circle cx="900" cy="640" r="58" fill="#2b2f36"/><circle cx="900" cy="640" r="26" fill="#9aa0a8"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+  <defs>
+    <linearGradient id="bg22" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf6f0"/><stop offset="1" stop-color="#ece2d5"/>
+    </linearGradient>
+    <linearGradient id="f22" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#856078"/><stop offset="0.55" stop-color="#6a4a5e"/><stop offset="1" stop-color="#523848"/>
+    </linearGradient>
+    <linearGradient id="c22" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#856078"/><stop offset="1" stop-color="#6a4a5e"/>
+    </linearGradient>
+    <radialGradient id="sh22" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3a2a1c" stop-opacity="0.28"/><stop offset="1" stop-color="#3a2a1c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg22)"/>
+  <circle cx="400" cy="276" r="264" fill="#fff" opacity="0.5"/><ellipse cx="400" cy="476" rx="280" ry="44" fill="url(#sh22)"/><rect x="150" y="160" width="180" height="230" rx="26" fill="url(#f22)"/><rect x="168" y="178" width="66" height="60" rx="12" fill="url(#c22)" stroke="#523848" stroke-width="2"/><rect x="242" y="178" width="66" height="60" rx="12" fill="url(#c22)" stroke="#523848" stroke-width="2"/><rect x="168" y="246" width="66" height="60" rx="12" fill="url(#c22)" stroke="#523848" stroke-width="2"/><rect x="242" y="246" width="66" height="60" rx="12" fill="url(#c22)" stroke="#523848" stroke-width="2"/><rect x="168" y="314" width="66" height="60" rx="12" fill="url(#c22)" stroke="#523848" stroke-width="2"/><rect x="242" y="314" width="66" height="60" rx="12" fill="url(#c22)" stroke="#523848" stroke-width="2"/><rect x="180" y="330" width="500" height="76" rx="14" fill="#523848"/><rect x="196" y="286" width="480" height="58" rx="16" fill="#f6f2ea" stroke="#d9cfc0" stroke-width="2"/><path d="M210 316 h452" stroke="#e3dacd" stroke-width="2"/><path d="M300 290 q 30 -18 70 -6 l280 0 q26 0 26 22 l0 26 q0 12 -18 12 l-358 0 z" fill="#eef1f3" stroke="#d5dade" stroke-width="2"/><rect x="330" y="256" width="106" height="44" rx="16" fill="#fdfcfa" stroke="#ddd5c8" stroke-width="2" transform="rotate(-4 383 278)"/><rect x="222" y="262" width="106" height="44" rx="16" fill="#fdfcfa" stroke="#ddd5c8" stroke-width="2" transform="rotate(3 275 284)"/><path d="M190 404 l24 0 l-4.32 40 l-15.36 0 z" fill="#7a5c3e"/>
+   <path d="M202 404 l12 0 l-4.32 40 l-7.68 0 z" fill="#5e452d"/><path d="M640 404 l24 0 l-4.32 40 l-15.36 0 z" fill="#7a5c3e"/>
+   <path d="M652 404 l12 0 l-4.32 40 l-7.68 0 z" fill="#5e452d"/></svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+  <defs>
+    <linearGradient id="bg10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf6f0"/><stop offset="1" stop-color="#ece2d5"/>
+    </linearGradient>
+    <linearGradient id="f10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8765"/><stop offset="0.55" stop-color="#5f6b4c"/><stop offset="1" stop-color="#4a5439"/>
+    </linearGradient>
+    <linearGradient id="c10" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7a8765"/><stop offset="1" stop-color="#5f6b4c"/>
+    </linearGradient>
+    <radialGradient id="sh10" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3a2a1c" stop-opacity="0.28"/><stop offset="1" stop-color="#3a2a1c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg10)"/>
+  <circle cx="400" cy="276" r="264" fill="#fff" opacity="0.5"/><ellipse cx="400" cy="470" rx="310" ry="46" fill="url(#sh10)"/><rect x="181" y="200" width="438" height="130" rx="26" fill="url(#f10)"/><rect x="225" y="214" width="168" height="104" rx="18" fill="url(#c10)" stroke="#4a5439" stroke-width="2" opacity="0.95"/><path d="M234 230 q 76 18 150 0" stroke="#4a5439" stroke-width="2" fill="none" opacity="0.5"/><rect x="405" y="214" width="168" height="104" rx="18" fill="url(#c10)" stroke="#4a5439" stroke-width="2" opacity="0.95"/><path d="M414 230 q 76 18 150 0" stroke="#4a5439" stroke-width="2" fill="none" opacity="0.5"/><rect x="150" y="326" width="500" height="86" rx="20" fill="#4a5439"/><rect x="224" y="300" width="170" height="52" rx="16" fill="url(#c10)" stroke="#4a5439" stroke-width="2"/><rect x="404" y="300" width="170" height="52" rx="16" fill="url(#c10)" stroke="#4a5439" stroke-width="2"/><rect x="150" y="240" width="62" height="166" rx="28" fill="url(#f10)"/><rect x="588" y="240" width="62" height="166" rx="28" fill="url(#f10)"/><ellipse cx="181" cy="252" rx="28" ry="12" fill="#7a8765" opacity="0.7"/><ellipse cx="619" cy="252" rx="28" ry="12" fill="#7a8765" opacity="0.7"/><path d="M176 410 l26 0 l-4.68 42 l-16.64 0 z" fill="#7a5c3e"/>
+   <path d="M189 410 l13 0 l-4.68 42 l-8.32 0 z" fill="#5e452d"/><path d="M598 410 l26 0 l-4.68 42 l-16.64 0 z" fill="#7a5c3e"/>
+   <path d="M611 410 l13 0 l-4.68 42 l-8.32 0 z" fill="#5e452d"/></svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f1e8"/><stop offset="1" stop-color="#eadfcd"/></linearGradient>
+    <radialGradient id="sh" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3a2a1c" stop-opacity="0.24"/><stop offset="1" stop-color="#3a2a1c" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+<rect x="120" y="140" width="960" height="620" rx="16" fill="#ffffff"/><rect x="120" y="140" width="960" height="14" fill="#c8102e"/><path d="M600 250 L700 430 L500 430 Z" fill="#c8102e"/><text x="600" y="415" font-family="Manrope,sans-serif" font-weight="800" font-size="70" fill="#ffffff" text-anchor="middle">!</text><text x="600" y="530" font-family="Georgia,serif" font-size="52" fill="#1e2229" text-anchor="middle">Beware of fake accounts</text><text x="600" y="600" font-family="Manrope,sans-serif" font-size="32" fill="#6b7280" text-anchor="middle">We never take payment online.</text><text x="600" y="650" font-family="Manrope,sans-serif" font-size="32" fill="#6b7280" text-anchor="middle">Showroom only. Face to face.</text>
+</svg>

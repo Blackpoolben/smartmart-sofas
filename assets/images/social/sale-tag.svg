@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f1e8"/><stop offset="1" stop-color="#e6dbcb"/></linearGradient>
+    <radialGradient id="sh" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3a2a1c" stop-opacity="0.24"/><stop offset="1" stop-color="#3a2a1c" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <ellipse cx="370.0" cy="698" rx="290.0" ry="26" fill="url(#sh)"/>
+  <rect x="120" y="400" width="500" height="173.6" rx="22" fill="#6b7280"/>
+  <rect x="102" y="478.4" width="536" height="128.8" rx="24" fill="#565c66"/>
+  <rect x="142" y="495.2" width="210.0" height="84.0" rx="14" fill="#ffffff" opacity="0.13"/>
+  <rect x="150" y="607.2" width="16" height="56.0" rx="6" fill="#6b5236"/>
+  <rect x="574" y="607.2" width="16" height="56.0" rx="6" fill="#6b5236"/><g transform="rotate(-8 820 380)"><rect x="680" y="240" width="380" height="280" rx="18" fill="#c8102e"/><circle cx="720" cy="285" r="16" fill="#faf7f2"/><text x="880" y="360" font-family="Manrope,sans-serif" font-weight="800" font-size="78" fill="#ffffff" text-anchor="middle">SALE</text><text x="880" y="440" font-family="Manrope,sans-serif" font-weight="700" font-size="40" fill="#ffd9df" text-anchor="middle">UP TO £500 OFF</text></g>
+</svg>

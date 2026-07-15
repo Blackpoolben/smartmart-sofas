@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+  <defs>
+    <linearGradient id="bg25" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf6f0"/><stop offset="1" stop-color="#ece2d5"/>
+    </linearGradient>
+    <linearGradient id="f25" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5a78"/><stop offset="0.55" stop-color="#38455f"/><stop offset="1" stop-color="#2a3448"/>
+    </linearGradient>
+    <linearGradient id="c25" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#4a5a78"/><stop offset="1" stop-color="#38455f"/>
+    </linearGradient>
+    <radialGradient id="sh25" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3a2a1c" stop-opacity="0.28"/><stop offset="1" stop-color="#3a2a1c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg25)"/>
+  <circle cx="400" cy="276" r="264" fill="#fff" opacity="0.5"/><ellipse cx="400" cy="460" rx="250" ry="40" fill="url(#sh25)"/><rect x="160" y="236" width="480" height="184" rx="26" fill="#fbf8f3" stroke="#ddd3c4" stroke-width="3"/><rect x="160" y="326" width="480" height="20" fill="#38455f" opacity="0.5"/><rect x="160" y="356" width="480" height="14" fill="#38455f" opacity="0.25"/><circle cx="210" cy="272" r="5" fill="#38455f" opacity="0.4"/><circle cx="210" cy="306" r="5" fill="#38455f" opacity="0.4"/><circle cx="286" cy="272" r="5" fill="#38455f" opacity="0.4"/><circle cx="286" cy="306" r="5" fill="#38455f" opacity="0.4"/><circle cx="362" cy="272" r="5" fill="#38455f" opacity="0.4"/><circle cx="362" cy="306" r="5" fill="#38455f" opacity="0.4"/><circle cx="438" cy="272" r="5" fill="#38455f" opacity="0.4"/><circle cx="438" cy="306" r="5" fill="#38455f" opacity="0.4"/><circle cx="514" cy="272" r="5" fill="#38455f" opacity="0.4"/><circle cx="514" cy="306" r="5" fill="#38455f" opacity="0.4"/><circle cx="590" cy="272" r="5" fill="#38455f" opacity="0.4"/><circle cx="590" cy="306" r="5" fill="#38455f" opacity="0.4"/><path d="M186 262 q214 -22 428 0" stroke="#38455f" stroke-width="2.5" fill="none" opacity="0.35"/><rect x="252" y="382" width="100" height="16" rx="8" fill="#38455f" opacity="0.35"/><rect x="448" y="382" width="100" height="16" rx="8" fill="#38455f" opacity="0.35"/></svg>
