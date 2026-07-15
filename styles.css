@@ -693,6 +693,113 @@ p { margin: 0; line-height: 1.6; }
 .hours td:last-child { text-align: right; font-weight: 600; }
 .hours tr:last-child td { border-bottom: 0; }
 
+/* ---------- facebook / social ---------- */
+
+.social { background: var(--cream); border-block: 1px solid var(--line); }
+.social .section-head { max-width: none; }
+.social-follow {
+  background: #1877f2;
+  border-color: #1877f2;
+  white-space: nowrap;
+  align-self: flex-start;
+}
+.social-follow:hover { background: #0f63d6; border-color: #0f63d6; }
+
+.social-layout {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 28px;
+  align-items: start;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+}
+.social-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+}
+.social-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--line-strong);
+}
+.social-media { position: relative; display: block; background: var(--cream); }
+.social-media img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.social-pin {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: var(--sale);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.social-body { padding: 15px 17px 18px; display: flex; flex-direction: column; flex: 1; gap: 9px; }
+.social-meta { display: flex; align-items: center; gap: 9px; font-size: 0.72rem; }
+.social-fb {
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1877f2;
+}
+.social-when { color: var(--muted); }
+.social-when::before { content: "· "; }
+.social-text {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.social-link {
+  margin-top: auto;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.social-link:hover { color: #1877f2; }
+
+.social-live-col { min-width: 0; }
+.social-live-label {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.social-live {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  min-height: 60px;
+}
+.social-live .fb-page,
+.social-live iframe { max-width: 100%; }
+
+@media (max-width: 980px) {
+  .social-layout { grid-template-columns: 1fr; }
+  .social-live-col { max-width: 500px; }
+}
+
 /* ---------- reviews ---------- */
 
 .review-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
